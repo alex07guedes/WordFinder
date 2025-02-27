@@ -1,7 +1,9 @@
 # 🟩 Word Finder
 
 ## 📌 **Description**
-    Word Finder is a word-guessing game inspired by Wordle from The New York Times. The goal of the game is to guess a randomly chosen five-letter word within five attempts. The game provides visual feedback for each attempt by changing the color of the letter tiles to indicate accuracy.
+    Word Finder is a word-guessing game inspired by Wordle from The New York Times. 
+    The goal of the game is to guess a randomly chosen five-letter word within five attempts. 
+    The game provides visual feedback for each attempt by changing the color of the letter tiles to indicate accuracy.
 
 ## 📌 **Functionality**
     Generates a random 5-letter word for each game.
