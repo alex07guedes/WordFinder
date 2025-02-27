@@ -14,27 +14,27 @@
     Validates real words using an English dictionary.
     Interactive interface with HTML, CSS, and Flask (Python).
     Stores attempts in the session to keep track of the player's progress.
-
+    
 ## 🛠️ **Instalation**
 
 To run the game locally, follow these steps:
 
-1. Install dependencies
+    1. Install dependencies
 
-Make sure you have Python installed on your system. Then, install the required packages:
-    py -m pip install flask
-    py -m pip install flask_session
-    py -m pip install tempfile
-    py -m pip install random_word
-    py -m pip install colorama
-    py -m pip install pyenchant
+    Make sure you have Python installed on your system. Then, install the required packages:
+        py -m pip install flask
+        py -m pip install flask_session
+        py -m pip install tempfile
+        py -m pip install random_word
+        py -m pip install colorama
+        py -m pip install pyenchant
 
-2. Run the application
+    2. Run the application
 
-Start the Flask server with the following command:
-    py -m flask run
+    Start the Flask server with the following command:
+        py -m flask run
 
-The game will be accessible in your web browser at http://127.0.0.1:5000/.
+    The game will be accessible in your web browser at http://127.0.0.1:5000/.
 
 
 
