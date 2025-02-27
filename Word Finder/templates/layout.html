@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="/static/styles.css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Word Finder</title>
+        <script src="https://kit.fontawesome.com/486da4ca0e.js" crossorigin="anonymous"></script>
+        <script src="/static/script.js" defer></script>
+    </head>
+    
+    <body>
+        <div class="header">
+            <a class="logo">Word Finder</a>
+        </div>
+        <div class="help">
+            <button id="myBtn"><i class="fa-regular fa-circle-question"></i></button>
+        </div>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close">&times;</span>
+                    <h2>How to Play</h2>
+                </div>
+                <div class="modal-body">
+                    <p>Guess the WORD in five tries.</p>
+                    <p>Each guess must be a valid five-letter word. Hit the button to submit.</p>
+                    <p>After each guess, the color of the tiles will change to show how close your guess was to the word.</p>
+                    <hr>
+                    <div class="modal-body2">
+                        <p>The tiles can show Three colors.</p>
+                        <p> Green- The letter is in the word and in the correct spot.</p>
+                        <p> Yellow- The letter is in the word but in the wrong spot.</p>
+                        <p> Grey- The letter is not in the word in any spot.</p>
+                    </div>  
+                </div>
+                <div class="modal-footer">
+                    <br>
+                    <h3>Good Luck !!</h3>
+                </div>
+            </div>
+        </div>
+
+        {% block body %}
+        {% endblock %}
+    </body>
+</html>
